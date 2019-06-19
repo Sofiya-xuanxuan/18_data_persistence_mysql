@@ -1,7 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4856981e-3598-442e-8416-b0fafb9f1401" name="Default Changelist" comment="" />
+    <list default="true" id="4856981e-3598-442e-8416-b0fafb9f1401" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/shop/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/controllers/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/controllers/error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/controllers/shop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/data/cart.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/data/products.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/models/cart-item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/models/cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/models/order-item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/models/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/models/product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/models/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/public/css/forms.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/public/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/public/css/product.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/public/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/routes/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/routes/shop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/util/database.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/util/path.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/views/404.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/views/admin/edit-product.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/views/admin/products.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/views/includes/add-to-cart.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/views/includes/end.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/views/includes/head.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/views/includes/navigation.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/views/shop/cart.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/views/shop/checkout.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/views/shop/index.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/views/shop/orders.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/views/shop/product-detail.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/views/shop/product-list.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/mysql2.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/mysql2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/sequelize.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/sequelize.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,10 +57,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fs/index.js">
+        <entry file="file://$PROJECT_DIR$/shop/util/database.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+            <state relative-caret-position="69">
+              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -25,44 +68,46 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysql/mysql2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="180">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mysql/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/shop/test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysql/package.json">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/shop/util/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysql/sequelize.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+            <state relative-caret-position="184">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fs/db.json">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -71,11 +116,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>DB_Database</find>
+      <find>DB_USER</find>
+      <find>pw</find>
+      <find>.env</find>
       <find>sqlstring</find>
     </findStrings>
   </component>
@@ -86,8 +136,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/fs/index.js" />
-        <option value="$PROJECT_DIR$/mysql/sequelize.js" />
+        <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/mysql/mysql2.js" />
+        <option value="$PROJECT_DIR$/mysql/sequelize.js" />
+        <option value="$PROJECT_DIR$/shop/.env" />
+        <option value="$PROJECT_DIR$/shop/util/database.js" />
       </list>
     </option>
   </component>
@@ -110,11 +163,6 @@
               <item name="17_持久化_mysql" type="b2602c69:ProjectViewProjectNode" />
               <item name="17_持久化_mysql" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="17_持久化_mysql" type="b2602c69:ProjectViewProjectNode" />
-              <item name="17_持久化_mysql" type="462c0819:PsiDirectoryNode" />
-              <item name="mysql" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -123,14 +171,20 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../16_网络编程" />
+    <property name="last_opened_file_path" value="D:/studyit/ksher/KsherSAAS_MiniProgram" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\2018-study\OneDrive\开课吧10期\myCode\17_持久化_mysql\mysql" />
+      <recent name="E:\2018-study\OneDrive\开课吧10期\myCode\17_持久化_mysql" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\2018-study\OneDrive\开课吧10期\myCode\17_持久化_mysql\shop\util" />
       <recent name="E:\2018-study\OneDrive\开课吧10期\myCode\17_持久化_mysql" />
     </key>
   </component>
@@ -157,15 +211,15 @@
       <option name="presentableId" value="Default" />
       <updated>1560828246880</updated>
       <workItem from="1560828249710" duration="9145000" />
-      <workItem from="1560910679492" duration="2591000" />
+      <workItem from="1560910679492" duration="17455000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11736000" />
+    <option name="totallyTimeSpent" value="26600000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12012645" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -179,7 +233,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3286334" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -192,7 +246,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/fs/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
+        <state>
           <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
         </state>
       </provider>
@@ -200,31 +254,114 @@
     <entry file="file://$PROJECT_DIR$/mysql/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysql/sequelize.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/fs/db.json">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysql/mysql2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mysql/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/data/cart.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1550" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/routes/admin.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/routes/shop.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/controllers/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1757" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/controllers/error.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/controllers/shop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3137" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/util/path.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/public/js/main.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="138">
+            <caret line="6" selection-start-line="6" selection-end-line="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/yarn.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7245" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/util/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/util/database.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysql/sequelize.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysql/mysql2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
