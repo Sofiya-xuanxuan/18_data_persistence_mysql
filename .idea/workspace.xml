@@ -2,48 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4856981e-3598-442e-8416-b0fafb9f1401" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/shop/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/controllers/admin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/controllers/error.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/controllers/shop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/data/cart.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/data/products.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/models/cart-item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/models/cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/models/order-item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/models/order.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/models/product.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/models/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/public/css/forms.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/public/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/public/css/product.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/public/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/routes/admin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/routes/shop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/util/database.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/util/path.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/views/404.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/views/admin/edit-product.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/views/admin/products.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/views/includes/add-to-cart.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/views/includes/end.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/views/includes/head.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/views/includes/navigation.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/views/shop/cart.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/views/shop/checkout.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/views/shop/index.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/views/shop/orders.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/views/shop/product-detail.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/views/shop/product-list.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/mysql2.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/mysql2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/sequelize.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/sequelize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/pool/async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/pool/mysql.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/pool/sequelize.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -92,11 +53,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysql/pool/async.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="529">
+              <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysql/pool/mysql.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mysql/pool/sequelize.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -141,6 +129,9 @@
         <option value="$PROJECT_DIR$/mysql/sequelize.js" />
         <option value="$PROJECT_DIR$/shop/.env" />
         <option value="$PROJECT_DIR$/shop/util/database.js" />
+        <option value="$PROJECT_DIR$/mysql/pool/async.js" />
+        <option value="$PROJECT_DIR$/mysql/pool/mysql.js" />
+        <option value="$PROJECT_DIR$/mysql/pool/sequelize.js" />
       </list>
     </option>
   </component>
@@ -162,6 +153,17 @@
             <path>
               <item name="17_持久化_mysql" type="b2602c69:ProjectViewProjectNode" />
               <item name="17_持久化_mysql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="17_持久化_mysql" type="b2602c69:ProjectViewProjectNode" />
+              <item name="17_持久化_mysql" type="462c0819:PsiDirectoryNode" />
+              <item name="mysql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="17_持久化_mysql" type="b2602c69:ProjectViewProjectNode" />
+              <item name="17_持久化_mysql" type="462c0819:PsiDirectoryNode" />
+              <item name="mysql" type="462c0819:PsiDirectoryNode" />
+              <item name="pool" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -211,15 +213,16 @@
       <option name="presentableId" value="Default" />
       <updated>1560828246880</updated>
       <workItem from="1560828249710" duration="9145000" />
-      <workItem from="1560910679492" duration="17455000" />
+      <workItem from="1560910679492" duration="26016000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26600000" />
+    <option name="totallyTimeSpent" value="35161000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12012645" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -233,7 +236,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3286334" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.505423" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -359,7 +362,28 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysql/pool/async.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysql/pool/mysql.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysql/pool/sequelize.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
         </state>
       </provider>
     </entry>
